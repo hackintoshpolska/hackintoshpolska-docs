@@ -1,3 +1,6 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://hackintosh-polska.pl/"
+languageCode = "pl-pl"
+title = "hackintoshpolska"
+theme = "docsy"
+
+contentDir = "content/pl"
