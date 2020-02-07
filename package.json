@@ -1,23 +1,20 @@
 {
-    "name": "hackintoshpolska-docs",
-    "version": "rolling",
-    "description": "Best Documentation page with hackintosh guides.",
-    "main": "none.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hackintoshpolska/hackintoshpolska-docs.git"
-    },
-    "author": "hackintoshpolska",
-    "license": "CC-BY-SA-4.0",
-    "bugs": {
-      "url": "https://github.com/hackintoshpolska/hackintoshpolska-docs/issues"
-    },
-    "homepage": "https://github.com/hackintoshpolska/hackintoshpolska-docs#readme",
-    "dependencies": {
-      "autoprefixer": "^9.7.4",
-      "postcss-cli": "^7.1.0"
-    }
+  "name": "hackintoshpolska-docs",
+  "version": "1.0.0",
+  "description": "Best Documentation page with hackintosh guides.",
+  "main": "none.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackintoshpolska/hackintoshpolska-docs.git"
+  },
+  "author": "hackintoshpolska",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/hackintoshpolska/hackintoshpolska-docs/issues"
+  },
+  "homepage": "https://github.com/hackintoshpolska/hackintoshpolska-docs#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0"
   }
+}
