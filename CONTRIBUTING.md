@@ -54,6 +54,8 @@ description: >
 ```
 The `authors` value is your name and is optional. If you're modifying existing file please add your name in the `authors` field.
 
+For the other basic writing guidelines please refer to official [Docsy Documentation](https://www.docsy.dev/docs/).
+
 ## Share your contribution
 If you're already happy with your changes it's best to share your contribution by creating a Pull Request in [upstream repository](https://github.com/hackintoshpolska/hackintoshpolska-docs/compare). Don't forget to assign repository maintainers for review!
 
