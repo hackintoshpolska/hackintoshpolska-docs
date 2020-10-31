@@ -1,0 +1,10 @@
+<nav class="main-nav">
+  <a href="#" class="logo">{{.Site.Title }}</a>
+  {{ partial "nav-elems.html" .}}
+  <div class="socials">      
+    {{ range .Site.Params.Socials }}
+    <!-- TODO (@Ressetkk): add alternate ways of adding images to the site -->
+    <a href="{{ .url }}" target="_blank" title="{{ .title }}"><i {{if .fa }}class="{{ .fa }}"{{ else }}{{ end }}></i></a>
+    {{ end }}
+  </div>
+</nav>

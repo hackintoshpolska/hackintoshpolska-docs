@@ -1,0 +1,271 @@
+/* HEADER START */
+.main-header {
+  background-image: url("/images/computer-desk-electronics-keyboard-238118 3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  padding-top: 94px;
+  padding-bottom: 145px;
+}
+
+.main-header h2 {
+  font-size: 288px;
+  font-weight: 700;
+  margin: 0 0 0 -15px;
+}
+
+.main-header h1 {
+  font-size: 96px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main-header h3 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.main-header p {
+  font-size: 14px;
+  margin: 55px 0;
+  line-height: 17px;
+}
+
+.main-header-container {
+  max-width: 840px;
+  padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER END */
+
+/* ABOUT HACKINTOSH START */
+#about-hackintosh {
+  max-width: 850px;
+  margin: 0 auto 120px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 80px;
+  grid-row-gap: 0px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#about-hackintosh .about-item:first-child img {
+  margin: 6px 0;
+}
+/* ABOUT HACKINTOSH END */
+
+/* CREW START */
+#crew-container {
+  max-width: 850px;
+  margin: 0 auto 120px auto;
+}
+
+#crew-container h3 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 17px;
+  position: relative;
+}
+
+#crew-container h3:before {
+  content: '';
+  position: absolute;
+  width: 99px;
+  height: 85px;
+  background-image: url('/img/home/crew.png');
+  display: block;
+  left: -99px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#crew-container p {
+  margin: 17px 0 0 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.crew {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.crew .member {
+  width: 250px;
+  text-align: center;
+}
+
+.crew .member img {
+  display: block;
+}
+
+.crew .member h4 {
+  background-color: #51A1FF;
+  color: #fff;
+  font-size: 16px;
+  padding: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.crew .member p {
+  font-size: 14px;
+  margin: 15px 0;
+  padding: 0 8px;
+  line-height: 17px;
+}
+
+/* CREW END */
+
+/* CONTACT START */
+#contact {
+  max-width: 850px;
+  margin: 0 auto 160px auto;
+}
+
+#contact h3 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 17px;
+  position: relative;
+}
+
+#contact h3:before {
+  content: '';
+  position: absolute;
+  width: 99px;
+  height: 85px;
+  background-image: url('/img/home/crew.png');
+  display: block;
+  left: -99px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#contact p {
+  margin: 17px 0 0 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.input-row label {
+  display: block;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.input-row {
+  margin-bottom: 50px;
+}
+
+.input-row input:not([type=checkbox]) {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding: 15px 11px;
+  border: 1px solid #D6D0D0;
+}
+
+.input-row textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  padding: 15px 11px;
+  border: 1px solid #D6D0D0;
+  resize: none;
+}
+
+.input-row input:not([type=checkbox]):focus,
+.input-row textarea:focus{
+  outline: none;
+  border-color: #51A1FF;
+}
+
+span.required {
+  color: #51A1FF;
+}
+
+.input-row.has-error {
+  position: relative;
+}
+
+.input-row:last-of-type {
+  margin-bottom: 40px;
+}
+
+.input-row.has-error input:not([type=checkbox]) {
+  border-color: #D92A2A;
+}
+
+.input-row.has-error .error {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  color: #D92A2A;
+  font-size: 16px;
+  bottom: -24px;
+}
+
+.accept-terms {
+  margin-top: 16px;
+}
+
+.accept-terms label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  padding-left: 26px;
+}
+
+.accept-terms label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  height: 16px;
+  width: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #D6D0D0;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accept-terms input:checked ~ .checkmark:after {
+  content: '';
+  width: 18px;
+  height: 15px;
+  position: absolute;
+  left: 55%;
+  top: 35%;
+  transform: translate(-50% ,-50%);
+  background-image: url('/img/home/check.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* CONTACT END */

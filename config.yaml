@@ -1,0 +1,28 @@
+baseURL: https://hackintoshpolska.pl/
+languageCode: pl-pl
+theme: docsy
+title: hackintoshpolska
+enableRobotsTXT: true
+# enableGitInfo: true
+
+contentDir: content/pl
+defaultContentLanguage: pl
+
+copyright: © 2020 Hackintosh Polska.
+# menu:
+#   main:
+#     - identifier: foo
+#       name: foo
+#       url: bar
+  
+params:
+  socials:
+  - title: Zobacz grupę na Facebooku!
+    url: https://www.facebook.com/groups/hackintoshpolska
+    fa: fab fa-facebook
+  - title: Dołącz do nas na Discord!
+    url: https://discord.com/invite/b6nttPd
+    fa: fab fa-discord
+  - title: Zobacz nasz GitHub!
+    url: https://github.com/hackintoshpolska/hackintoshpolska-docs
+    fa: fab fa-github

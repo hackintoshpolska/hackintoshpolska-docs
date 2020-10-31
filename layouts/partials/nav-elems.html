@@ -1,0 +1,6 @@
+<ol class="nav-items">
+    {{ range .Site.Menus.main }}
+    <!-- TODO (@Ressetkk): set-up active var if it's in the navigation -->
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+</ol>
