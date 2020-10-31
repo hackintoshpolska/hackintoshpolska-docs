@@ -65,19 +65,19 @@
   margin: 0 auto 120px auto;
 }
 
-#crew-container h3 {
+.heading h3 {
   margin: 0;
   font-size: 36px;
   line-height: 17px;
   position: relative;
 }
 
-#crew-container h3:before {
+.heading h3:before {
   content: '';
   position: absolute;
   width: 99px;
   height: 85px;
-  background-image: url('/img/home/crew.png');
+  background-image: url('/images/heading-decorator.png');
   display: block;
   left: -99px;
   top: 50%;
@@ -128,25 +128,6 @@
 #contact {
   max-width: 850px;
   margin: 0 auto 160px auto;
-}
-
-#contact h3 {
-  margin: 0;
-  font-size: 36px;
-  line-height: 17px;
-  position: relative;
-}
-
-#contact h3:before {
-  content: '';
-  position: absolute;
-  width: 99px;
-  height: 85px;
-  background-image: url('/img/home/crew.png');
-  display: block;
-  left: -99px;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 #contact p {

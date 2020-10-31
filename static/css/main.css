@@ -274,7 +274,7 @@ body {
 }
 
 body {
-  background-image: url('/img/home/top-view-of-laptop-beside-bowl-pineapple-and-spider-toy-211856 1.png');
+  background-image: url('/images/top-view-of-laptop-beside-bowl-pineapple-and-spider-toy-211856 1.png');
   background-position: 0 bottom;
   background-repeat: no-repeat;
 }
@@ -287,10 +287,15 @@ body {
   border: none;
   padding: 16px 66px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:focus {
   outline: none;
+}
+
+.btn:hover {
+  background-color: #1669c9;
 }
 
 /* NAVIGATION START */

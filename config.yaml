@@ -19,10 +19,13 @@ params:
   socials:
   - title: Zobacz grupę na Facebooku!
     url: https://www.facebook.com/groups/hackintoshpolska
-    fa: fab fa-facebook
+    icon: fa-facebook
+    fa: true
   - title: Dołącz do nas na Discord!
     url: https://discord.com/invite/b6nttPd
-    fa: fab fa-discord
+    icon: fa-discord
+    fa: true
   - title: Zobacz nasz GitHub!
     url: https://github.com/hackintoshpolska/hackintoshpolska-docs
-    fa: fab fa-github
+    icon: fa-github
+    fa: true
