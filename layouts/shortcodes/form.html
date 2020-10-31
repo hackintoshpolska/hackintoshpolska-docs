@@ -1,0 +1,5 @@
+{{$isNetlify := .Get "netlify" }}
+{{$isNetlify := eq $isNetlify "true" }}
+<form {{ if $isNetlify }}netlify{{ end }}>
+    {{ .Inner }}
+</form>

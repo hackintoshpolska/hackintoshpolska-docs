@@ -1,0 +1,18 @@
+{{ $name := .Get "name" }}
+{{ $required := .Get "required" }}
+{{ $required := eq $required "true" }}
+{{ $type := .Get "type" }}
+<div class="input-row">
+    {{ with .Get "title" }}
+    <label for="{{ $name }}">
+        {{ . }}{{ if $required }}<span class="required">*</span>{{ end }}
+    </label>
+    {{ end }}
+    {{ if eq $type "textarea" }}
+    <textarea id="{{ $name }}" name="{{ $name }}"{{if $required }}reuired{{ end }} rows="4"
+    {{with .Get "placeholder" }}placeholder="{{ . }}"{{ end }}></textarea>
+    {{ else }}
+    <input type="{{ $type }}" name="{{ $name }}" id="{{ $name }}" {{if $required }}reuired{{ end }}
+    {{with .Get "placeholder" }}placeholder="{{ . }}"{{ end }}>
+    {{ end }}
+</div>

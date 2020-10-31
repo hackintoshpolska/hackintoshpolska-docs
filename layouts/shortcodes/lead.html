@@ -1,4 +1,13 @@
 <div class="about-item">
+    {{ with .Get "imgSrc" }}
+    <img src="{{ . }}" alt="{{ .Get "title" }}" />
+    {{ else }}
+    {{ with .Get "icon" }}
+    <i class="{{ . }}" style="font-size: 4em;"></i>
+    {{ else }}
+    {{ errorf "missing or empty parameter 'icon': $s" .Position }}
+    {{ end}}
+    {{ end }}
     <h3>{{ .Get "title" }}</h3>
-    <p>{{ .Inner }}</p>
+    {{ .Inner }}
 </div>

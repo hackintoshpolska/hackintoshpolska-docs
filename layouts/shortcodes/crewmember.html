@@ -1,0 +1,14 @@
+<div class="member">
+    {{ $name := .Get "name" }}
+    <!-- TODO (@Ressetkk): IMAGE SCALING TO FIXED SIZE!!! -->
+    {{ with .Get "imgSrc" }}
+    <img src="{{ . }}" alt="{{ $name }}" />
+    <!-- TODO (@Ressetkk): Add missing imgSrc error once we get proper image scaling for this shortcode -->
+    {{ end }}
+    <h4>
+    {{ with $name }}{{ . }}{{ else }}{{ errorf "missing value for param 'name': %s" .Position }}{{ end }}
+    </h4>
+    <p>
+        {{ with .Get "description" }}{{ . }}{{ else }}{{ errorf "missing value for param 'description': %s" .Position }}{{ end }}
+    </p>
+</div>
