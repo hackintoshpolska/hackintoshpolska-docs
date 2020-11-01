@@ -5,7 +5,8 @@ menu: "main"
 ---
 {{< header title="hackintoshpolska" bigTitle="H." description="macOS nie tylko na jabłkach" >}}
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+  Od początku działania grupy na Facebooku tworzymy poradniki pomagające w instalacji systemu macOS na komputerach PC.
+  Instalacja systemu od Apple nie jest taka trudna jak mogłaby się wydawać. Jeżeli chcesz dowiedzieć się więcej kliknij przycisk poniżej 
 </p>
 {{< button href="docs" >}}Poradniki{{< /button >}}
 {{< /header >}}
@@ -21,10 +22,9 @@ menu: "main"
 {{% heading title="Ekipa" %}}Te osoby są odpowiedzialne za przygotowanie wszystkich tekstów dostępnych na stronie,
 administrację grupą i serverem Discorda. Praktycznie robią wszystko co się da 😎{{% /heading %}}
 
-<!-- TODO (@Ressetkk): we need to make it more friendly for more than 3 members -->
 <div class="crew">
-  {{% crewmember name="Adrian Rupala" description="Założyciel grupy, administrator i opiekun social mediów" %}}
-  {{% crewmember name="Kamil Kasperski" description="Administrator grupy, merytoryczny mentor i twórca poradników" %}}
+  {{% crewmember imgSrc="images/crew/adrox.jpg" name="Adrian Rupala" description="Założyciel grupy, administrator i opiekun social mediów" %}}
+  {{% crewmember imgSrc="images/crew/resset.jpg" name="Kamil Kasperski" description="Administrator grupy, merytoryczny mentor i twórca poradników" %}}
 </div>
 {{< /section >}}
 
@@ -34,12 +34,18 @@ Jesteśmy otwarci na kontakt! Aby się skontaktować z nami najszybciej, zrobisz
 Jeżeli jednak nie możesz się z nami skontaktować poprzez powyższe media to użyj formularza kontaktowego poniżej.
 {{% /heading %}}
 
-{{< form netlify="true" >}}
-{{% input type="text" title="Imię i nazwisko" name="fullName" required="true" placeholder="Janek Kowalski" %}}
+{{< form netlify="true" disclaimer="* Pole wymagane">}}
+{{% input type="text" title="Imię i nazwisko" name="fullName" required="true" placeholder="Janek Kowalski" pattern="[a-zA-Z ]+" %}}
 {{% input type="email" title="E-mail" name="email" required="true" placeholder="janek.kowalski@example.com" %}}
 {{% input type="text" title="Temat" name="subject" required="true" placeholder="Temat wiadomości" %}}
 {{% input type="textarea" title="Treść" name="message" required="true" placeholder="Treść wiadomości" %}}
-DODAĆ SHORTCODE DO POLITYKI PRYWATNOŚCI
+<div class="input-row accept-terms">
+<label>
+  Wyrażam zgodę na przechowywanie i przetwarzanie swoich danych osobowych podanych w formularzu w celach korespondencyjnych<span class="required">*</span>
+  <input type="checkbox" name="terms" required />
+  <span class="checkmark"></span>
+</label>
+</div>
 {{< button >}}Wyślij{{< /button >}}
 {{< /form >}}
 

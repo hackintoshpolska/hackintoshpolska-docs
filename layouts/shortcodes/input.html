@@ -2,6 +2,7 @@
 {{ $required := .Get "required" }}
 {{ $required := eq $required "true" }}
 {{ $type := .Get "type" }}
+{{ $pattern := .Get "pattern" }}
 <div class="input-row">
     {{ with .Get "title" }}
     <label for="{{ $name }}">
@@ -13,6 +14,6 @@
     {{with .Get "placeholder" }}placeholder="{{ . }}"{{ end }}></textarea>
     {{ else }}
     <input type="{{ $type }}" name="{{ $name }}" id="{{ $name }}" {{if $required }}reuired{{ end }}
-    {{with .Get "placeholder" }}placeholder="{{ . }}"{{ end }}>
+    {{with .Get "placeholder" }}placeholder="{{ . }}"{{ end }} {{ if eq $type "text" }}pattern="{{ default "\\S.*" $pattern }}"{{ end }}>
     {{ end }}
 </div>

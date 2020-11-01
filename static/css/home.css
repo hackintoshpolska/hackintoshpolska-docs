@@ -92,6 +92,7 @@
 
 .crew {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-around;
   margin-top: 60px;
@@ -100,10 +101,14 @@
 .crew .member {
   width: 250px;
   text-align: center;
+  padding-bottom: 2em;
 }
 
 .crew .member img {
   display: block;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
 }
 
 .crew .member h4 {
@@ -149,7 +154,7 @@ form {
 }
 
 .input-row {
-  margin-bottom: 50px;
+  margin-bottom: 2rem;
 }
 
 .input-row input:not([type=checkbox]) {
@@ -171,6 +176,10 @@ form {
   resize: none;
 }
 
+.input-row input:invalid {
+  border-color: #D92A2A;
+}
+
 .input-row input:not([type=checkbox]):focus,
 .input-row textarea:focus{
   outline: none;
@@ -183,10 +192,6 @@ span.required {
 
 .input-row.has-error {
   position: relative;
-}
-
-.input-row:last-of-type {
-  margin-bottom: 40px;
 }
 
 .input-row.has-error input:not([type=checkbox]) {
@@ -236,17 +241,23 @@ span.required {
 }
 
 .accept-terms input:checked ~ .checkmark:after {
-  content: '';
+  content: '✔';
   width: 18px;
   height: 15px;
   position: absolute;
   left: 55%;
   top: 35%;
   transform: translate(-50% ,-50%);
-  background-image: url('/img/home/check.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 /* CONTACT END */
+
+.footer {
+  color: slategrey;
+  padding-right: 2em;
+  font-size: small;
+  text-align: right;
+}

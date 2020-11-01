@@ -3,17 +3,10 @@ languageCode: pl-pl
 theme: docsy
 title: hackintoshpolska
 enableRobotsTXT: true
-# enableGitInfo: true
-
+enableGitInfo: true
 contentDir: content/pl
 defaultContentLanguage: pl
-
-copyright: © 2020 Hackintosh Polska.
-# menu:
-#   main:
-#     - identifier: foo
-#       name: foo
-#       url: bar
+copyright: Made with 🍺 © 2020 Hackintosh Polska.
   
 params:
   socials:
