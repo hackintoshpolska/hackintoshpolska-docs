@@ -1,4 +1,5 @@
 .main-nav {
+    line-height: 1 !important;
 display: flex;
 align-items: center;
 justify-content: center;
