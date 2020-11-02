@@ -21,6 +21,8 @@ footer .copyright {
   text-align: right;
   width: 25%;
   max-width: 340px;
+  box-sizing: initial;
+  line-height: initial;
 }
 
 footer .nav-items {
