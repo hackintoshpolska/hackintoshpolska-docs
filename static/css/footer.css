@@ -46,3 +46,8 @@ footer .nav-items li a {
   font-size: small;
   text-align: right;
 }
+.container-fluid footer {
+  width: calc(100% + 30px);
+  margin-right: -15px;
+  margin-left: -15px;
+}
