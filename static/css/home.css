@@ -6,6 +6,8 @@
   background-position: 100% 0%;
   padding-top: 94px;
   padding-bottom: 145px;
+  width: calc(100% + 30px);
+  margin-left: -15px;
 }
 
 .main-header h2 {
@@ -37,6 +39,7 @@
   padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 /* HEADER END */
@@ -73,11 +76,11 @@
 }
 
 .heading h3:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 99px;
   height: 85px;
-  background-image: url('/images/heading-decorator.png');
+  background-image: url("/images/heading-decorator.png");
   display: block;
   left: -99px;
   top: 50%;
@@ -112,7 +115,7 @@
 }
 
 .crew .member h4 {
-  background-color: #51A1FF;
+  background-color: #51a1ff;
   color: #fff;
   font-size: 16px;
   padding: 14px;
@@ -157,52 +160,52 @@ form {
   margin-bottom: 2rem;
 }
 
-.input-row input:not([type=checkbox]) {
+.input-row input:not([type="checkbox"]) {
   width: 100%;
   box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 15px 11px;
-  border: 1px solid #D6D0D0;
+  border: 1px solid #d6d0d0;
 }
 
 .input-row textarea {
   width: 100%;
   box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 15px 11px;
-  border: 1px solid #D6D0D0;
+  border: 1px solid #d6d0d0;
   resize: none;
 }
 
 .input-row input:invalid {
-  border-color: #D92A2A;
+  border-color: #d92a2a;
 }
 
-.input-row input:not([type=checkbox]):focus,
-.input-row textarea:focus{
+.input-row input:not([type="checkbox"]):focus,
+.input-row textarea:focus {
   outline: none;
-  border-color: #51A1FF;
+  border-color: #51a1ff;
 }
 
 span.required {
-  color: #51A1FF;
+  color: #51a1ff;
 }
 
 .input-row.has-error {
   position: relative;
 }
 
-.input-row.has-error input:not([type=checkbox]) {
-  border-color: #D92A2A;
+.input-row.has-error input:not([type="checkbox"]) {
+  border-color: #d92a2a;
 }
 
 .input-row.has-error .error {
   position: absolute;
   right: 0;
   text-align: right;
-  color: #D92A2A;
+  color: #d92a2a;
   font-size: 16px;
   bottom: -24px;
 }
@@ -232,7 +235,7 @@ span.required {
   width: 16px;
   box-sizing: border-box;
   background-color: #fff;
-  border: 1px solid #D6D0D0;
+  border: 1px solid #d6d0d0;
   display: block;
   position: absolute;
   left: 0;
@@ -241,16 +244,39 @@ span.required {
 }
 
 .accept-terms input:checked ~ .checkmark:after {
-  content: '✔';
+  content: "✔";
   width: 18px;
   height: 15px;
   position: absolute;
   left: 55%;
   top: 35%;
-  transform: translate(-50% ,-50%);
+  transform: translate(-50%, -50%);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 /* CONTACT END */
+
+@media only screen and (max-width: 1024px) {
+  .main-header h2 {
+    font-size: 10em;
+  }
+  .main-header h1 {
+    font-size: 3em;
+  }
+  #about-hackintosh {
+    grid-column-gap: 50px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-header h1 {
+    font-size: 2.5em;
+  }
+  .main-header h3 {
+    font-size: 1.6em;
+  }
+  #about-hackintosh {
+    grid-column-gap: 30px;
+  }
+}

@@ -1,47 +1,48 @@
 footer {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  
-  footer .netlify-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  footer .copyright {
-    background-color: #51A1FF;
-    color: #ffffff;
-    font-size: 12px;
-    padding: 19px;
-    width: 340px;
-    text-align: right;
-  }
-  
-  footer .nav-items {
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-    box-sizing: border-box;
-    padding: 10px 70px 10px 10px;
-  }
-  
-  footer .nav-items li:not(:last-child) {
-    margin-right: 28px;
-  }
-  
-  footer .nav-items li a {
-    text-decoration: none;
-    color: #000000;
-  }
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
 
-  .footer {
-    color: slategrey;
-    padding-right: 2em;
-    font-size: small;
-    text-align: right;
-  }
+footer .netlify-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .copyright {
+  background-color: #51a1ff;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 19px;
+  text-align: right;
+  width: 25%;
+  max-width: 340px;
+}
+
+footer .nav-items {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 70px 10px 10px;
+}
+
+footer .nav-items li:not(:last-child) {
+  margin-right: 28px;
+}
+
+footer .nav-items li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer {
+  color: slategrey;
+  padding-right: 2em;
+  font-size: small;
+  text-align: right;
+}
