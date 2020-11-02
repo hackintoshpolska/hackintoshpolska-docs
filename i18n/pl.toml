@@ -1,0 +1,43 @@
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "Wstecz"
+
+[ui_pager_next]
+other = "Dalej"
+
+[ui_read_more]
+other = "Zobacz więcej"
+
+[ui_search]
+other = "Szukaj..."
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "w"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "All Rights Reserved"
+
+[footer_privacy_policy]
+other = "Polityka prywatności"
+
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "By"
+[post_created]
+other = "Utworzono"
+[post_last_mod]
+other = "Ostatnia modyfikacja"
+[post_edit_this]
+other = "Edytuj tę stronę"
+[post_create_child_page]
+other = "Utwórz podstronę"
+[post_create_issue]
+other = "Zgłoś błąd w dokumencie"
+[post_create_project_issue]
+other = "Zgłoś błąd na stronie"
+[post_posts_in]
+other = "Posty"

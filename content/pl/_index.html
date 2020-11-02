@@ -3,17 +3,50 @@ title: hackintoshpolska
 linkTitle: Strona główna
 menu: "main"
 ---
-<!-- TODO (@Ressetkk): create shortcode for this element with proper formatting -->
-<header class="main-header">
-    <div class="main-header-container">
-      <h2>H.</h2>
-      <h1>hackintoshpolska</h1>
-      <h3>lorem ipsum lorem ipsum lorem ipsum</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-      </p>
-      <button class="btn">
-        Poradniki
-      </button>
-    </div>
-</header>
+{{< header title="hackintoshpolska" bigTitle="H." description="macOS nie tylko na jabłkach" >}}
+<p>
+  Od początku działania grupy na Facebooku tworzymy poradniki pomagające w instalacji systemu macOS na komputerach PC.
+  Instalacja systemu od Apple nie jest taka trudna jak mogłaby się wydawać. Jeżeli chcesz dowiedzieć się więcej kliknij przycisk poniżej 
+</p>
+{{< button href="docs" >}}Poradniki{{< /button >}}
+{{< /header >}}
+
+{{< section id="about-hackintosh" >}}
+{{% lead title="Autorskie poradniki" icon="fas fa-at" %}}Całą treść naszych rozdziałów przygotowujemy samodzielnie i wiemy o czym piszemy.{{% /lead %}}
+{{% lead title="Czysta instalacja" icon="far fa-circle" %}}Nie korzystamy z żadnych dystrybucji ani gotowych programów instalacyjnych typu MultiBeast, iAtkos itp.{{% /lead %}}
+{{% lead title="Licencja Creative Commons" icon="fab fa-creative-commons" %}}Nasze poradniki są dostępne na licencji CC-BY-SA-4.0{{% /lead %}}
+{{< /section >}}
+
+
+{{< section id="crew-container" >}}
+{{% heading title="Ekipa" %}}Te osoby są odpowiedzialne za przygotowanie wszystkich tekstów dostępnych na stronie,
+administrację grupą i serverem Discorda. Praktycznie robią wszystko co się da 😎{{% /heading %}}
+
+<div class="crew">
+  {{% crewmember imgSrc="images/crew/adrox.jpg" name="Adrian Rupala" description="Założyciel grupy, administrator i opiekun social mediów" %}}
+  {{% crewmember imgSrc="images/crew/resset.jpg" name="Kamil Kasperski" description="Administrator grupy, merytoryczny mentor i twórca poradników" %}}
+</div>
+{{< /section >}}
+
+{{< section id="contact" >}}
+{{% heading title="Kontakt" %}}
+Jesteśmy otwarci na kontakt! Aby się skontaktować z nami najszybciej, zrobisz to poprzez naszą grupę na Facebooku, albo serwer Discord.
+Jeżeli jednak nie możesz się z nami skontaktować poprzez powyższe media to użyj formularza kontaktowego poniżej.
+{{% /heading %}}
+
+{{< form netlify="true" disclaimer="* Pole wymagane">}}
+{{% input type="text" title="Imię i nazwisko" name="fullName" required="true" placeholder="Janek Kowalski" pattern="[a-zA-Z ]+" %}}
+{{% input type="email" title="E-mail" name="email" required="true" placeholder="janek.kowalski@example.com" %}}
+{{% input type="text" title="Temat" name="subject" required="true" placeholder="Temat wiadomości" %}}
+{{% input type="textarea" title="Treść" name="message" required="true" placeholder="Treść wiadomości" %}}
+<div class="input-row accept-terms">
+<label>
+  Wyrażam zgodę na przechowywanie i przetwarzanie swoich danych osobowych podanych w formularzu w celach korespondencyjnych<span class="required">*</span>
+  <input type="checkbox" name="terms" required />
+  <span class="checkmark"></span>
+</label>
+</div>
+{{< button >}}Wyślij{{< /button >}}
+{{< /form >}}
+
+{{< /section >}}

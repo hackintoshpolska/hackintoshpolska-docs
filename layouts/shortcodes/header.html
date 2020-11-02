@@ -1,0 +1,8 @@
+<header class="main-header">
+    <div class="main-header-container">
+        {{ with .Get "bigTitle" }}<h2>{{ . }}</h2> {{- end }}
+        <h1>{{ .Get "title" }}</h1>
+        <h3>{{ .Get "description" }}</h3>
+        {{ .Inner }}
+    </div>
+</header>

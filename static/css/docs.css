@@ -1,0 +1,11 @@
+.td-main main {
+    padding-top: initial;
+}
+
+.td-sidebar {
+    padding-top: initial;
+}
+
+.td-toc nav {
+    margin-left: 0.5rem !important;
+}

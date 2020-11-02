@@ -1,0 +1,6 @@
+{{$isNetlify := .Get "netlify" }}
+{{$isNetlify := eq $isNetlify "true" }}
+<form {{ if $isNetlify }}netlify{{ end }}>
+    {{ .Inner }}
+    <h6>{{ .Get "disclaimer" }}</h6>
+</form>

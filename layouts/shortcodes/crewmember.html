@@ -1,0 +1,14 @@
+{{ $name := .Get "name" }}
+<div class="member">
+    {{ with .Get "imgSrc" }}
+    <img src="{{ . }}" alt="{{ $name }}" />
+    {{ else }}
+    {{ errorf "missing or empty value for param 'imgSrc': %s" .Position }}
+    {{ end }}
+    <h4>
+    {{ with $name }}{{ . }}{{ else }}{{ errorf "missing value for param 'name': %s" .Position }}{{ end }}
+    </h4>
+    <p>
+        {{ with .Get "description" }}{{ . }}{{ else }}{{ errorf "missing value for param 'description': %s" .Position }}{{ end }}
+    </p>
+</div>

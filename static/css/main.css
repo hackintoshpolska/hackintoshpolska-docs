@@ -265,7 +265,7 @@ textarea {
 
 /** CUSTOM STYLES **/
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -274,123 +274,30 @@ body {
 }
 
 body {
-  background-image: url('/img/home/top-view-of-laptop-beside-bowl-pineapple-and-spider-toy-211856 1.png');
+  background-image: url("/images/top-view-of-laptop-beside-bowl-pineapple-and-spider-toy-211856 1.png");
   background-position: 0 bottom;
   background-repeat: no-repeat;
 }
 
 .btn {
-  background-color: #51A1FF;
+  background-color: #51a1ff;
   font-size: 16px;
   color: #ffffff;
   font-weight: 700;
   border: none;
   padding: 16px 66px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:focus {
   outline: none;
 }
 
-/* NAVIGATION START */
-
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.btn:hover {
+  background-color: #1669c9;
 }
 
-.main-nav .logo {
-  color: #000000;
-  font-weight: 700;
-  text-decoration: none;
-  margin: 40px 60px;
+main {
+  padding: 0 15px;
 }
-
-.main-nav .nav-items {
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  box-sizing: border-box;
-  width: 100%;
-  border-left: 1px solid #D6D0D0;
-  padding: 10px 0 10px 60px;
-}
-
-.main-nav .nav-items li:not(:last-child) {
-  margin-right: 28px;
-}
-
-.main-nav .nav-items li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.main-nav .nav-items li a.active {
-  font-weight: 700;
-}
-
-.main-nav .socials {
-  background-color: #51A1FF;
-  font-size: 24px;
-  padding: 15px 50px;
-  display: flex;
-}
-
-.main-nav .socials a {
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.main-nav .socials a:not(:last-child) {
-  margin-right: 20px;
-}
-
-/* NAVIGATION END */
-
-
-
-/* FOOTER START */
-footer {
-  margin: 50px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-footer .netlify-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-footer .copyright {
-  background-color: #51A1FF;
-  color: #ffffff;
-  font-size: 12px;
-  padding: 19px;
-  width: 340px;
-  text-align: right;
-}
-
-footer .nav-items {
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  box-sizing: border-box;
-  padding: 10px 70px 10px 10px;
-}
-
-footer .nav-items li:not(:last-child) {
-  margin-right: 28px;
-}
-
-footer .nav-items li a {
-  text-decoration: none;
-  color: #000000;
-}
-/* FOOTER END */

@@ -1,0 +1,5 @@
+{{ if .Get "href" }}
+<a href= "{{ .Get "href" }}" class="btn">{{ .Inner }}</a>
+{{ else }}
+<button class="btn">{{ .Inner }}</button>
+{{ end }}
