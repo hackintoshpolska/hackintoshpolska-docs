@@ -6,6 +6,6 @@
     padding-top: initial;
 }
 
-.ml-2 {
-    margin-left: initial !important;
+.td-toc nav {
+    margin-left: 0.5rem !important;
 }
