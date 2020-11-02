@@ -7,8 +7,15 @@ enableGitInfo: true
 contentDir: content/pl
 defaultContentLanguage: pl
 copyright: Made with 🍺 © 2020 Hackintosh Polska.
-  
+
+sidebar_search_disable: true
+languages:
+  pl:
+    languageName: Polski
+    time_format_default: "02-01-2006"
+
 params:
+  github_repo: https://github.com/hackintoshpolska/hackintoshpolska-docs
   socials:
   - title: Zobacz grupę na Facebooku!
     url: https://www.facebook.com/groups/hackintoshpolska
