@@ -11,7 +11,7 @@ description: >
 
 * ####  *Narzędzie to pozwoli Ci pobrać kopię MacOS w wersji od 10.13.x do najnowszej* 
 
-Jeśli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, mozesz uzyć App store do pobrania instalatora.
+Jeśli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, mozesz użyć App store do pobrania instalatora.
 
 Pobierz narzedzie [gibMacOS](https://github.com/corpnewt/gibMacOS), nastepnie rozpakuj, przejdz do folderu i odpal `gibMacOS.command`:
 
@@ -26,20 +26,20 @@ Pojawią sie wersje MacOS z katalogu publicznego, jeśli chcesz pobrac wersje be
 
 ### Wymagania 
 
-Do stworzenia nośnika instalacyjnego z systemem MacOS Catalina i wyzej potrzebny jest pendrive lub dysk zewnętrzny o pojemności min. 16GB 
+Do stworzenia nośnika instalacyjnego z systemem MacOS Catalina i wyżej potrzebny jest pendrive lub dysk zewnętrzny o pojemności min. 16GB 
 
 ### Formatowanie Dysku
 
 Uruchom `Narzędzia Dyskowe` 
 
-* Kliknij Widok>Pokaz wszyskie urządzenia.
+* Kliknij Widok>Pokaż wszyskie urządzenia.
 * Wybierz swój dysk docelowy i sformatuj go z następującymi ustawieniami:
 ![alt](diskutility.png)
 
 ### Kopiowanie instalatora
-*Metodą przy uzyciu narzedzia `createinstallmedia`*
+*Metoda przy uzyciu narzedzia `createinstallmedia`*
  
- * Uruchom `Terminal` i wpisz ponizsze polecenia w zaleznosci od systemu ktory instalujesz :
+ * Uruchom `Terminal` i wpisz poniższe polecenia w zależnosci od systemu który instalujesz :
  
 ### Catalina
 `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
@@ -50,4 +50,4 @@ Uruchom `Narzędzia Dyskowe`
 ### High Sierra
 `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
 
-Gratulacje, udało Ci sie utworzyc nośnik instalacyjny, mozesz przejść dalej do [Konfiguracja Bootlaodera](/hackintoshpolska-docs/content/pl/docs/bootloader/_index.md)
+Gratulacje, udało Ci sie utworzyc nośnik instalacyjny, możesz przejść dalej do [Konfiguracja Bootlaodera](/hackintoshpolska-docs/content/pl/docs/bootloader/_index.md)
