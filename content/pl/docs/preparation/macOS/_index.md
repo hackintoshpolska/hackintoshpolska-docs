@@ -11,18 +11,18 @@ description: >
 
 * ####  *Narzędzie to pozwoli Ci pobrać kopię MacOS w wersji od 10.13.x do najnowszej* 
 
-Jeśli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, możesz użyć App store do pobrania instalatora.
+Jeżeli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, możesz użyć App store do pobrania instalatora.
 
-Pobierz narzedzie [gibMacOS](https://github.com/corpnewt/gibMacOS), nastepnie rozpakuj, przejdz do folderu i odpal `gibMacOS.command`:
+Pobierz narzędzie [gibMacOS](https://github.com/corpnewt/gibMacOS), następnie rozpakuj, przejdź do folderu i odpal `gibMacOS.command`:
 
 ![alt](gibmacos.png)
 
-Pojawią sie wersje MacOS z katalogu publicznego, jeśli chcesz pobrac wersje beta zmień katalog : `C.Change Catalog`
+Pojawią się wersje MacOS z katalogu publicznego, jeśli chcesz pobrać wersję Beta zmień katalog : `C.Change Catalog`
 
 * Kopia instalatora bedzie pobrana do katalogu `gibMacOS-master/macOS Downloads`
 * Aby przekonwertować pobrane pliki do `.app` i przenieść instalator do folderu /Applications uruchom `InstallESDDmg.pkg`
 
-# Tworzenie nośnika instalacjnego
+# Tworzenie nośnika instalacyjnego
 
 ### Wymagania 
 
@@ -37,9 +37,9 @@ Uruchom `Narzędzia Dyskowe`
 ![alt](diskutility.png)
 
 ### Kopiowanie instalatora
-*Metoda przy uzyciu narzedzia `createinstallmedia`*
+*Metoda przy użyciu narzędzia `createinstallmedia`*
  
- * Uruchom `Terminal` i wpisz poniższe polecenia w zależnosci od systemu który instalujesz :
+ * Uruchom `Terminal` i wpisz poniższe polecenia w zależności od systemu który instalujesz :
  
 ### Catalina
 `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
@@ -50,4 +50,4 @@ Uruchom `Narzędzia Dyskowe`
 ### High Sierra
 `sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB`
 
-Gratulacje, udało Ci sie utworzyc nośnik instalacyjny, możesz przejść dalej do [Konfiguracja Bootlaodera](/hackintoshpolska-docs/content/pl/docs/bootloader/_index.md)
+Gratulacje, udało Ci się utworzyć nośnik instalacyjny, możesz przejść dalej do [Konfiguracja Bootloadera](/hackintoshpolska-docs/content/pl/docs/bootloader/_index.md)
