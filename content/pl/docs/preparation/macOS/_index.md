@@ -11,7 +11,7 @@ description: >
 
 * ####  *Narzędzie to pozwoli Ci pobrać kopię MacOS w wersji od 10.13.x do najnowszej* 
 
-Jeśli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, mozesz użyć App store do pobrania instalatora.
+Jeśli jesteś na maszynie spełniającej wymagania systemu który chcesz pobrać, możesz użyć App store do pobrania instalatora.
 
 Pobierz narzedzie [gibMacOS](https://github.com/corpnewt/gibMacOS), nastepnie rozpakuj, przejdz do folderu i odpal `gibMacOS.command`:
 
