@@ -1,7 +1,7 @@
 ---
 title: Instalacja systemu
 linkTitle: Instalacja systemu
-weight: 4
+weight: 3
 description: >
     Instalacja systemu macOS.
 ---
