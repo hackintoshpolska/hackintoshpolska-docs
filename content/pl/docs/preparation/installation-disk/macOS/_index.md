@@ -2,6 +2,7 @@
 title: MacOS
 linkTitle: MacOS
 weight: 3
+authors: narcyzzo
 description: >
     Opis przygotowania nośnika instalacyjnego z MacOS.
 ---
