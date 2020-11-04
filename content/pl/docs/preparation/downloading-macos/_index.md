@@ -2,6 +2,7 @@
 title: Pobieranie
 linkTitle: Pobieranie
 weight: 3
+authors: narcyzzo
 description: >
     Opis pobierania kopii systemu MacOS.
 ---
