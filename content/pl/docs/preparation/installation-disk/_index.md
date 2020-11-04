@@ -1,3 +1,4 @@
+---
 title: Przygotowanie dysku instalacyjnego
 linkTitle: Przygotowanie dysku instalacyjnego
 weight: 3
