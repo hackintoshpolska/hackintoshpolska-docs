@@ -27,10 +27,6 @@ Install mandatory npm modules:
 ```
 npm install
 ```
-For Building site (Preview) use:
-```
-hugo serve
-```
 That should be enough to set up your working environment.
 
 ## Creating new guides
