@@ -21,7 +21,7 @@ Pobierz narzedzie [gibMacOS](https://github.com/corpnewt/gibMacOS), nastepnie ro
 Pojawią sie wersje MacOS z katalogu publicznego, jeśli chcesz pobrac wersje beta zmień katalog : `C.Change Catalog`
 
 * Kopia instalatora bedzie pobrana do katalogu `gibMacOS-master/macOS Downloads`
-* Aby przekonwertować pobrane pliki do `.app` i przenieść instalator do folderu /Applications uruchom `InstallESDDmg.pkg` lub uzyj `BuildmacOSInstallApp.command`
+* Aby przekonwertować pobrane pliki do `.app` uruchom `BuildmacOSInstallApp.command`
 
 ## Opcjonalne metody 
 
